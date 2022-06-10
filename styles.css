@@ -1,0 +1,156 @@
+* {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h1{
+    color: cadetblue;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+h3{
+    color: cadetblue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.containerGallery {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 34pt;
+}
+
+h2 {
+    font-size: 34pt;
+}
+
+p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 16pt;
+}
+
+/* Banner Styling */
+.banner{
+    width: 100%;
+    height: 50vh;
+}
+
+.remove_margin {
+    margin-bottom: 0px;
+}
+
+/* Services Customisations */
+
+.lg_icon{
+    font-size: 50px;
+    color: darkslateblue;
+}
+
+/* Background Colour */
+
+body {
+    background-color: gainsboro;
+}
+
+/* Home Page Image Avatar */
+
+.homeImage1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.avatar1 {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+    
+}
+
+/* About Me Page Image Avatar */
+
+.aboutImage1 {
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+.avatar2 {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+}
+
+/* TESTIMONIALS */
+
+ /* Style the container with a rounded border, grey background and some padding and margin */
+ .containerTestim {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  /* Clear floats after containers */
+  .containerTestim::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .containerTestim img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .containerTestim span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .containerTestim {
+      text-align: center;
+    }
+  
+    .containerTestim img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  } 
+
+  /* Footer */
+  #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 20px;
+ }
+
+#footSERVpage {
+     position:absolute;
+     bottom:0;
+     width: 100px;
+     height: 10px;
+ }
+
+ #footCONTpage {
+    position:absolute;
+    bottom:0;
+    width: 100px;
+    height: 10px;
+ }
+

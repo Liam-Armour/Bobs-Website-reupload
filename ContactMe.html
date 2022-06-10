@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts & Icons-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bob Graphic Designs | Contact Me</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--NAVIGATION BAR MOBILE & BROWSER Bootstrap-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html">Bob Smith | Graphic Design</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="AboutMe.html">About Me</a></li>
+              <li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="MyServices.html">My Services</a></li>
+              <li class="active"><a href="ContactMe.html">Contact Me</a></li>
+              <li><a href="Testimonials.html">Testimonials</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Get in Touch</h1>
+    
+<!--CONTANT FORM-->
+
+<div class="container">
+
+  <div class="row">
+
+      <div class="col-xl-8 offset-xl-2 py-5">
+
+        <!-- Content -->
+
+          <h1> Contact Me </h1>
+
+          <p class="lead">Use this area to ask me some questions or get in touch with me directly.</p>
+
+          <!-- The code for the form itself -->
+          <form>
+            <!--<form id="contact-form" method="post" action="contact.php" role="form">-->
+
+              <div class="messages"></div>
+            
+              <div class="controls">
+            
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="form_name">Firstname *</label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="form_lastname">Lastname *</label>
+                              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="form_email">Email *</label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="form_need">Please specify your need *</label>
+                              <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                  <option value="">Personal Request</option>
+                                  <option value="Request logo design">Request logo design</option>
+                                  <option value="Request order status">Request order status</option>
+                                  <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                  <option value="Other">Other</option>
+                              </select>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <label for="form_message">Message *</label>
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                          <input type="submit" class="btn btn-success btn-send" value="Send message">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <p></p>
+                      </div>
+                  </div>
+              </div>
+            
+            </form>
+
+      </div>
+
+  </div>
+
+</div>
+
+  <!--Scripts-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+<script src="contact.js"></script>
+
+<!-- Basic contact information -->
+
+<div id="contactinfo">
+ <p>Tel: 0141 128 2889 | Email: bobsmith7@gmail.com | Discord: BSmith#3213</p>
+</div>
+        
+  <!-- LOCATION -->
+
+<h3>My Location</h3>
+<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71674.10935429324!2d-4.291253008076148!3d55.848509061897175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888461faf881e7f%3A0xe8c65676e959338c!2sGlasgow%20Clyde%20College%20-%20Cardonald%20Campus!5e0!3m2!1sen!2suk!4v1653248367072!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+  <!-- FOOTER -->
+
+<div id="footerCONTpage">
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark">Liam Armour 20297550 Glasgow Clylde College</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+
+</body>
+</html>
